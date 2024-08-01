@@ -32,6 +32,8 @@ window.onload = function() {
   let randomSentence = `${who[random(who)]} ${action[random(action)]} ${
     what[random(what)]
   } ${when[random(when)]}`;
-  console.log(randomSentence);
+
   excuses.innerHTML = randomSentence;
+
+  return excuses;
 };
